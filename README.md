@@ -1,9 +1,8 @@
 # spotify_sql_project
 
 
-Overview
+# Overview
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using SQL. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
-
 
 
 DROP TABLE IF EXISTS spotify;
@@ -38,8 +37,8 @@ CREATE TABLE spotify (
 
 
 
-Project Steps
-1. Data Exploration
+# Project Steps
+* Data Exploration
 Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
 
 Artist: The performer of the track.
@@ -47,7 +46,7 @@ Track: The name of the song.
 Album: The album to which the track belongs.
 Album_type: The type of album (e.g., single or album).
 Various metrics such as danceability, energy, loudness, tempo, and more.
-4. Querying the Data
+* Querying the Data
 After the data is inserted, various SQL queries can be written to explore and analyze the data. Queries are categorized into easy, medium, and advanced levels to help progressively develop SQL proficiency.
 
 Easy Queries
@@ -56,7 +55,7 @@ Medium Queries
 More complex queries involving grouping, aggregation functions, and joins.
 Advanced Queries
 Nested subqueries, window functions, CTEs, and performance optimization.
-5. Query Optimization
+* Query Optimization
 In advanced stages, the focus shifts to improving query performance. Some optimization strategies include:
 
 Indexing: Adding indexes on frequently queried columns.
@@ -65,14 +64,16 @@ Query Execution Plan: Using EXPLAIN ANALYZE to review and refine query performan
 
 
 
-Technology Stack
+# Technology Stack
 Database: PostgreSQL
+
 SQL Queries: DDL, DML, Aggregations, Joins, Subqueries, Window Functions
+
 Tools: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)
 
 
 
-How to Run the Project
+# How to Run the Project
 Install PostgreSQL and pgAdmin (if not already installed).
 Set up the database schema and tables using the provided normalization structure.
 Insert the sample data into the respective tables.
@@ -82,5 +83,5 @@ Explore query optimization techniques for large datasets.
 
 
 
-Contributing
+# Contributing
 If you would like to contribute to this project, feel free to fork the repository, submit pull requests, or raise issues
